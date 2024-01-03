@@ -213,6 +213,10 @@ section {
   gap: 1rem;
 }
 
+.text-container {
+  font-size: 20px;
+}
+
 /* ICONS */
 
 .icon {
@@ -312,6 +316,16 @@ section {
   text-align: center;
   background-color: #fee17c;
 }
+.details-container-exp {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  /* background-color: w; */
+}
 
 .section-container {
   gap: 4rem;
@@ -381,9 +395,18 @@ article .icon {
   width: 90%;
   height: 90%;
 }
+.project-img1 {
+  border-radius: 2rem;
+  width: 80%;
+  height: 100%;
+}
 
 .project-title {
   margin: 1rem;
+  color: black;
+}
+.project-title-stock {
+  margin: 2.2rem;
   color: black;
 }
 
